@@ -1,0 +1,6 @@
+{
+    "c_in": 4,
+    "hidden_size": 32,
+    "num_layers": 2,
+    "time_step": 16
+}

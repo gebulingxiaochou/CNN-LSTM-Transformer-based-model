@@ -1,0 +1,35 @@
+TCLN
+forcast_length: 1
+data_name: HSB
+mse: 0.020608809225167838
+mae: 0.11712399846589555
+TCLN
+forcast_length: 4
+data_name: HSB
+mse: 0.030622986031373804
+mae: 0.14043930268484728
+TCLN
+forcast_length: 8
+data_name: HSB
+mse: 0.04299983286534223
+mae: 0.16372207841303543
+
+HSB_speed: 27.89 it/s
+
+TCLN
+forcast_length: 1
+data_name: SHZXS
+mse: 0.03294324724755879
+mae: 0.14819172471323286
+TCLN
+forcast_length: 4
+data_name: SHZXS
+mse: 0.04663501574030055
+mae: 0.1670514917194449
+TCLN
+forcast_length: 8
+data_name: SHZXS
+mse: 0.06619635815244555
+mae: 0.1929221503443042
+
+SHZXS_speed: 28.24 it/s

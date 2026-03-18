@@ -1,0 +1,35 @@
+TimesNet
+forcast_length: 1
+data_name: HSB
+mse: 0.03845434170994386
+mae: 0.15896437608662406
+TimesNet
+forcast_length: 4
+data_name: HSB
+mse: 0.0510792261743834
+mae: 0.18518433637628107
+TimesNet
+forcast_length: 8
+data_name: HSB
+mse: 0.06212024006685653
+mae: 0.20402290380696425
+
+HSB_speed: 9.91 it/s
+
+TimesNet
+forcast_length: 1
+data_name: SHZXS
+mse: 0.044570243851669474
+mae: 0.1586523808420933
+TimesNet
+forcast_length: 4
+data_name: SHZXS
+mse: 0.05937097506338563
+mae: 0.18125932256996252
+TimesNet
+forcast_length: 8
+data_name: SHZXS
+mse: 0.07895248027332322
+mae: 0.20814826435156644
+
+SHZXS_speed: 9.93 it/s

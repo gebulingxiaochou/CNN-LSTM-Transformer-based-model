@@ -1,0 +1,35 @@
+LSTM
+forcast_length: 1
+data_name: HSB
+mse: 0.20896386770394948
+mae: 0.32829085376538125
+LSTM
+forcast_length: 4
+data_name: HSB
+mse: 0.20155615712762243
+mae: 0.33213421295211487
+LSTM
+forcast_length: 8
+data_name: HSB
+mse: 0.20660625120817522
+mae: 0.3394408384458044
+
+HSB_speed: 244.56 it/s
+
+LSTM
+forcast_length: 1
+data_name: SHZXS
+mse: 0.018175921082544653
+mae: 0.10251003329859767
+LSTM
+forcast_length: 4
+data_name: SHZXS
+mse: 0.03540486041966927
+mae: 0.13646261639174487
+LSTM
+forcast_length: 8
+data_name: SHZXS
+mse: 0.057589962204799935
+mae: 0.17057769737897063
+
+SHZXS_speed: 337.60 it/s

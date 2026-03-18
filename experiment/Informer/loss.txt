@@ -1,0 +1,35 @@
+Informer
+forcast_length: 1
+data_name: HSB
+mse: 0.03980628860097143
+mae: 0.1475645704385327
+Informer
+forcast_length: 4
+data_name: HSB
+mse: 0.046849616123114377
+mae: 0.1621399984732547
+Informer
+forcast_length: 8
+data_name: HSB
+mse: 0.06403090979635034
+mae: 0.18481513401574523
+
+HSB_speed: 46.97 it/s
+
+Informer
+forcast_length: 1
+data_name: SHZXS
+mse: 0.04767560610743057
+mae: 0.16608935241829717
+Informer
+forcast_length: 4
+data_name: SHZXS
+mse: 0.06846697663633695
+mae: 0.1976537463575657
+Informer
+forcast_length: 8
+data_name: SHZXS
+mse: 0.08896383853992947
+mae: 0.22323327283463906
+
+SHZXS_speed: 46.60 it/s

@@ -1,0 +1,6 @@
+{
+    "c_in": 1,
+    "d_model": 32,
+    "n_head": 2,
+    "seq_len": 16
+}
