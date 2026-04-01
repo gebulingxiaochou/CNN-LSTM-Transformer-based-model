@@ -13,3 +13,19 @@ forcast_length: 8
 data_name: HSB
 mse: 0.0366089729758316
 mae: 0.14338216773313162
+
+MixModel
+forcast_length: 1
+data_name: SHZXS
+mse: 0.012134590109971725
+mae: 0.07367432693306743
+MixModel
+forcast_length: 4
+data_name: SHZXS
+mse: 0.02694453789379019
+mae: 0.10687202976750163
+MixModel
+forcast_length: 8
+data_name: SHZXS
+mse: 0.04658478571184088
+mae: 0.14374898601017524
