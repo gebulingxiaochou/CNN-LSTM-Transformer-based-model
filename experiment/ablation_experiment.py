@@ -24,6 +24,7 @@ if project_dir not in sys.path:
     sys.path.insert(0, project_dir)
 os.chdir(args.work_direct)
 
+from model.MyModel.MyModel import *
 from model.MyModel.MyModel_patch_cancel import *
 from model.MyModel.MyModel_feature_attention_cancel import *
 from model.MyModel.MyModel_feature_mlp_cancel import *
@@ -62,6 +63,12 @@ my_model5: MyModelTimeMLPCancel = MyModelTimeMLPCancel(
 ).to(args.device)
 model_list.append(my_model5)
 
+my_model6: MyModel = MyModel(
+    **hyper_params,
+    patch_time_step=(hyper_params["time_step"] - hyper_params["patch_size"] + 1)
+).to(args.device)
+model_list.append(my_model6)
+
 test_data_loader: DataLoader = train_loader(win_size=hyper_params["time_step"] + 8,
                                             batch_size=32,
                                             data_path=args.test_data_path,
@@ -99,3 +106,4 @@ with open(args.save_path + "ablation_loss.txt", "a", encoding="utf-8") as f:
         f.write(f"{args.data_name}&Feature_mlp_cancel: {loss_list[2]}\n")
         f.write(f"{args.data_name}&Time_attention_cancel: {loss_list[3]}\n")
         f.write(f"{args.data_name}&Time_mlp_cancel: {loss_list[4]}\n")
+        f.write(f"{args.data_name}&MixModel: {loss_list[5]}\n")
